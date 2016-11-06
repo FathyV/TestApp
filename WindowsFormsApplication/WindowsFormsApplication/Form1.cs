@@ -16,5 +16,10 @@ namespace WindowsFormsApplication
         {
             InitializeComponent();
         }
+
+        private void btnDoTask_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is a message");
+        }
     }
 }
